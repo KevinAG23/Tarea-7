@@ -1,0 +1,52 @@
+/* Comics.css */
+
+.comics-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-evenly;
+  }
+  
+  .comic {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }
+  
+  .image-container {
+    flex: 1;
+    margin-right: 15px;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .info-container {
+    flex: 2;
+  }
+  
+  .format,
+  .loading {
+    text-align: center;
+  }
+  
+  .creatorsList,
+  .charactersList,
+  .storiesList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .creatorsList li,
+  .charactersList li,
+  .storiesList li {
+    margin-bottom: 5px;
+  }
+  
